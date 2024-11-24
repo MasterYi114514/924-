@@ -1,0 +1,85 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;  /* 如果背景图片加载失败时的背景色 */
+  color: #333;
+  padding: 20px;
+  background-image: url('image/bg3.jpg');  /* 设置背景图片 */
+  background-size: cover;  /* 背景图片覆盖整个页面 */
+  background-position: center;  /* 背景图片居中 */
+  background-attachment: fixed;  /* 背景图片固定，不随滚动 */
+}
+
+/* Header styles */
+header {
+  background-color: rgba(51, 51, 51, 0.8);  /* 半透明背景 */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+/* Section styles */
+section {
+  margin: 20px 0;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 16px;
+}
+
+ul {
+  list-style: disc inside;
+}
+
+.profile-img {
+  max-width: 150px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
